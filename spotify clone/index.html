@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@200;300;400;500;600;700&family=Passion+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- sidebar  -->
+        <!-- first block -->
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-options" style="opacity: 1;">
+                    <i class="fa-brands fa-spotify"></i>
+                    <h3>Spotify</h3>
+                </div>
+                <div class="nav-options" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#" class="home">Home</a>
+                </div>
+                <div class="nav-options">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+
+        <!-- second block -->
+
+            <div class="library">
+                <div class="options">
+                    <div class="lib-options nav-options">
+                        <img src="./assets/library_icon.png">
+                        <a href="#">Your library</a>
+                    </div>
+                    <div class="icons ">
+                        <i class="fa-solid fa-plus nav-options"></i>
+                        <i class="fa-solid fa-arrow-right nav-options"></i>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="lib-box">
+                        <div class="box-p1">
+                            Creat your first playlist
+                        </div>
+                        <div class="box-p2">
+                            It's easy, we'll help you
+                        </div>
+                        <button class="badge">
+                            Creat playlist
+                        </button>
+                    </div>
+                    <div class="lib-box">
+                        <div class="box-p1">
+                            Lets find some podcast to follow
+                        </div>
+                        <div class="box-p2">
+                            We'll keep you updated on new episode
+                        </div>
+                        <button class="badge">
+                            Browse podcasts
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main body -->
+        <div class="main">
+            <div class="sticky">
+                <div class="arrows">
+                    <i class="fa-solid fa-circle-chevron-left"></i>
+                    <i class="fa-solid fa-circle-chevron-right hide"></i>
+                </div>
+                <div class="install">
+                    <button class="explore hide">
+                        Explore Premium
+                    </button>
+                    <button class="installapp">
+                        <i class="fa-regular fa-circle-down"></i>Install App
+                    </button>
+                </div>
+            </div>
+
+            <div class="album">
+
+                <div class="one-lib">
+                    <div class="heading">
+                        <h3>Spotify playlist</h3>
+                        <p>Show all</p>
+                    </div>
+                    <div class="card-wraper">
+                        <div class="card-container">
+                            <div class="card-body">
+                                <img src="./assets/1.jpeg" alt="">
+                                <h4>Todays top hits</h4>
+                                <p>Zack Bryan & Kacey Musgraves are on top of ...</p>
+                                <i class="fa-solid fa-circle-play hover-play"></i>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-body">
+                                <img src="./assets/2.jpeg" alt="">
+                                <h4>RapCaviar</h4>
+                                <p>New music for Doja Cat, Lil Tecca and Moneybag...</p>
+                                <i class="fa-solid fa-circle-play hover-play"></i>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-body">
+                                <img src="./assets/3.jpeg" alt="">
+                                <h4>All Out 2010s</h4>
+                                <p>The Biggest songs to the 2010s</p>
+                                <i class="fa-solid fa-circle-play hover-play"></i>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-body">
+                                <img src="./assets/4.jpeg" alt="">
+                                <h4>Rock Classics</h4>
+                                <p>Rock legends & epic songs that continue to inspire... </p>
+                                <i class="fa-solid fa-circle-play hover-play"></i>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-body">
+                                <img src="./assets/5.jpeg" alt="">
+                                <h4>Chill Hits</h4>
+                                <p>Kick back to the best new and recent chill hits.</p>
+                                <i class="fa-solid fa-circle-play hover-play"></i>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-body">
+                                <img src="./assets/6.jpeg" alt="">
+                                <h4>Viva letino</h4>
+                                <!-- <p>Lorem ipsum dolor sit amet consectetur.</p> -->
+                                <i class="fa-solid fa-circle-play hover-play"></i>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-body">
+                                <img src="./assets/7.jpeg" alt="">
+                                <h4>Mega Hit mix</h4>
+                                <!-- <p>Lorem ipsum dolor sit amet consectetur.</p> -->
+                                <i class="fa-solid fa-circle-play hover-play"></i>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-body">
+                                <img src="./assets/8.jpeg" alt="">
+                                <h4>All Out 80s</h4>
+                                <!-- <p>Lorem ipsum dolor sit amet consectetur.</p> -->
+                                <i class="fa-solid fa-circle-play hover-play"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="one-lib">
+                    <div class="heading">
+                        <h3>Sleep</h3>
+                        <p>Show all</p>
+                    </div>
+                    <div class="card-wraper">
+                        <div class="card-container">
+                            <div class="card-body">
+                                <img src="./assets/b1.jpeg" alt="">
+                                <h4>Sleep</h4>
+                                <p>Gentle Ambient piano to help you...</p>
+                                <i class="fa-solid fa-circle-play hover-play"></i>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-body">
+                                <img src="./assets/b2.jpeg" alt="">
+                                <h4>DayDreamers</h4>
+                                <p>Drift away with enthralling...</p>
+                                <i class="fa-solid fa-circle-play hover-play"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="one-lib">
+                    <div class="heading">
+                        <h3>Focus</h3>
+                        <p>Show all</p>
+                    </div>
+                    <div class="card-wraper">
+                        <div class="card-container">
+                            <div class="card-body">
+                                <img src="./assets/c1.jpeg" alt="">
+                                <h4>PEaceful Piano</h4>
+                                <!-- <p>Lorem ipsum dolor sit amet consectetur.</p> -->
+                                <i class="fa-solid fa-circle-play hover-play"></i>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-body">
+                                <img src="./assets/c2.jpeg" alt="">
+                                <h4>Deep Focus</h4>
+                                <!-- <p>Lorem ipsum dolor sit amet consectetur.</p> -->
+                                <i class="fa-solid fa-circle-play hover-play"></i>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-body">
+                                <img src="./assets/c3.jpeg" alt="">
+                                <h4>Instrumental Study</h4>
+                                <!-- <p>Lorem ipsum dolor sit amet consectetur.</p> -->
+                                <i class="fa-solid fa-circle-play hover-play"></i>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-body">
+                                <img src="./assets/c4.jpeg" alt="">
+                                <h4>Focus Flow</h4>
+                                <!-- <p>Lorem ipsum dolor sit amet consectetur.</p> -->
+                                <i class="fa-solid fa-circle-play hover-play"></i>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-body">
+                                <img src="./assets/c5.jpeg" alt="">
+                                <h4>Beats to think to</h4>
+                                <!-- <p>Lorem ipsum dolor sit amet consectetur.</p> -->
+                                <i class="fa-solid fa-circle-play hover-play"></i>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-body">
+                                <img src="./assets/c6.jpeg" alt="">
+                                <h4>Reading Adventure</h4>
+                                <!-- <p>Lorem ipsum dolor sit amet consectetur.</p> -->
+                                <i class="fa-solid fa-circle-play hover-play"></i>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card-body">
+                                <img src="./assets/c7.jpeg" alt="">
+                                <h4>Quite Movement</h4>
+                                <!-- <p>Lorem ipsum dolor sit amet consectetur.</p> -->
+                                <i class="fa-solid fa-circle-play hover-play"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="one-lib">
+                    <div class="heading">
+                        <h3>Sound of India</h3>
+                        <p>Show all</p>
+                    </div>
+                    <div class="card-wraper">
+                        <div class="card-container">
+                            <div class="card-body">
+                                <img src="./assets/d1.jpeg" alt="">
+                                <h4>The Sound of Mumbai IN</h4>
+                                <!-- <p>Lorem ipsum dolor sit amet consectetur.</p> -->
+                                <i class="fa-solid fa-circle-play hover-play"></i>
+                            </div>
+                        </div>
+                       
+                        <div class="card-container">
+                            <div class="card-body">
+                                <img src="./assets/d2.jpeg" alt="">
+                                <h4>The Sound of Kolkata IN</h4>
+                                <!-- <p>Lorem ipsum dolor sit amet consectetur.</p> -->
+                                <i class="fa-solid fa-circle-play hover-play"></i>
+                            </div>
+                        </div>
+                       
+                        <div class="card-container">
+                            <div class="card-body">
+                                <img src="./assets/d3.jpeg" alt="">
+                                <h4>The Sound of Delhi IN</h4>
+                                <!-- <p>Lorem ipsum dolor sit amet consectetur.</p> -->
+                                <i class="fa-solid fa-circle-play hover-play"></i>
+                            </div>
+                        </div>
+                       
+                        <div class="card-container">
+                            <div class="card-body">
+                                <img src="./assets/d4.jpeg" alt="">
+                                <h4>The Sound of Bangaluru IN</h4>
+                                <!-- <p>Lorem ipsum dolor sit amet consectetur.</p> -->
+                                <i class="fa-solid fa-circle-play hover-play"></i>
+                            </div>
+                        </div>
+                       
+                        <div class="card-container">
+                            <div class="card-body">
+                                <img src="./assets/d5.jpeg" alt="">
+                                <h4>The Sound of Chennai IN</h4>
+                                <!-- <p>Lorem ipsum dolor sit amet consectetur.</p> -->
+                                <i class="fa-solid fa-circle-play hover-play"></i>
+                            </div>
+                        </div>
+                       
+                        <div class="card-container">
+                            <div class="card-body">
+                                <img src="./assets/d6.jpeg" alt="">
+                                <h4>The Sound of Hyderabad IN</h4>
+                                <!-- <p>Lorem ipsum dolor sit amet consectetur.</p> -->
+                                <i class="fa-solid fa-circle-play hover-play"></i>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            
+            
+
+                <div class="footer">
+                    <hr>
+                </div>
+            </div>
+            
+
+        </div>
+        <div class="music-player">
+
+            <!-- side album display -->
+
+            <div class="song-playing">
+                <div class="album-img">
+                    <img src="./assets/card4img.jpeg">
+                </div>
+                <div class="album-name">
+                    <p id="song-name">Alter-ego</p>
+                    <p>Reddy brothers</p>
+                </div>
+            </div>
+
+            <!-- centeral menu bar -->
+
+            <div class="menu">
+                <div class="menu-btn">
+                    <img src="./assets/player_icon1.png">
+                    <img src="./assets/player_icon2.png">
+                    <img src="./assets/player_icon3.png" id="play">
+                    <img src="./assets/player_icon4.png">
+                    <img src="./assets/player_icon5.png">
+                </div>
+                <div class="progress-bar">
+                    <p>00:00</p>
+                    <input type="range" class="slider">
+                    <p>03:33</p>
+                </div>
+            </div>
+
+            <div class="added-menu">
+                <i class="fa-solid fa-file-audio"></i>
+                <i class="fa-solid fa-thermometer"></i>
+                <i class="fa-solid fa-grip-lines"></i>
+                <i class="fa-solid fa-volume-high"></i>
+                <input type="range" class="slider vol" style="width: 35%; opacity: 1;">
+                <i class="fa-solid fa-clone"></i>
+
+
+            </div>
+
+        </div>
+    </div>
+   
+
+</body>
+</html>
