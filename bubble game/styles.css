@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-color: white;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(197, 255, 197);
+}
+
+.main{
+    height: 80vh;
+    width: 70vw;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.nav-bar{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(125, 255, 125);
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(27 139 27);
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+
+.item span{
+    font-size: 15px;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+}
+
+.box{
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.content-area{
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 10px;
+    height: calc(100% - 80px);
+    width: 100%;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+.elem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #65ff7e;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+}
+
+.elem:hover{
+    background-color: #04961c;
+}
